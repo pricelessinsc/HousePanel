@@ -970,11 +970,13 @@ function getOptions($allthings) {
     $defaultrooms = array(
         "Kitchen" => "kitchen|sink|pantry|dinette|clock|hello|goodbye|goodnight" ,
         "Family" => "family|mud|fireplace|casual|thermostat|weather",
-        "Living" => "living|dining|entry|front door|foyer",
+        "Living" => "living|dining|entry|foyer",
         "Office" => "office|computer|desk|work|clock",
         "Bedrooms" => "bedroom|kid|kids|bathroom|closet|master|guest",
+	"Lighting" => "lamp|light",    
+	"Perimeter" => "front|back|garage|patio|laundry",    
         "Outside" => "garage|yard|outside|porch|patio|driveway",
-        "Music" => "sonos|music|tv|television|alexa|stereo|bose|samsung|amp"
+        "Music" => "sonos|music|tv|television|alexa|stereo|speaker|samsung|amp"
     );
     
     // read options from a local server file
